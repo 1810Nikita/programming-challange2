@@ -1,5 +1,5 @@
 # programming-challange2
-To create a tool that aggregates data from different TSV files and outputs the results in a specified format, you could write a script in a language that can handle large data sets efficiently, such as Python.
+
 
 
 Read the data from each of the input TSV files into a pandas dataframe.
