@@ -68,21 +68,6 @@ result_df = pd.DataFrame(result, columns=["Id", "Username", "Email", "Hashed_Pas
 result_df.to_csv("output.tsv", sep="\t", index=False)
 
 
-# In[8]:
-
-
-user_email = pd.read_csv(r"C:\\AFiles\\plain_32m.tsv", sep="\t")
-print(user_email.columns)
-
-
-# In[4]:
-
-
-user_email = pd.read_csv(r"C:\\AFiles\\plain_32m.tsv", sep="\t")
-print(user_email.columns)
-
-
-# In[ ]:
 
 
 
