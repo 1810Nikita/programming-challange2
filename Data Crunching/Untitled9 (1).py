@@ -23,13 +23,13 @@ df.to_csv('test_2.tsv')
 
 import pandas as pd
 
-# Load User_email.hash.1m.tsv file into a pandas dataframe
+# Load  file into a pandas dataframe
 user_email = pd.read_csv(r"C:\\AFiles\\user_email_hash.1m.tsv", sep="\t", usecols=["email", "id", "username", "password"])
 
-# Load Ip_1m.tsv file into a pandas dataframe
+
 ip = pd.read_csv(r"C:\\AFiles\\ip_1m.tsv", sep="\t", usecols=["id", "ip_address"])
 
-# Load Plain_32m.tsv file into a pandas dataframe
+
 plain_text = pd.read_csv(r"C:\\AFiles\\plain_32m.tsv", sep="\t", usecols=['email', 'plaintext_password'])
 
 # Create a dictionary for storing ip data based on id
